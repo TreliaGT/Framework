@@ -1,0 +1,37 @@
+# Ignore Composer's vendor directory
+/vendor/
+/vendor/*
+# Ignore Composer's lock file (optional, only if you want to ignore it)
+composer.lock
+
+# Ignore cache directories created by Composer
+/.composer/
+
+# Ignore cache and log files
+/logs/
+/cache/
+
+# Ignore IDE configuration files
+.idea/
+*.swp
+*.swo
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables file
+.env
+.env.*
+
+# Ignore PHPUnit result cache
+.phpunit.result.cache
+
+# Ignore Blade cache (if you're using Blade templates)
+storage/framework/views/
+
+# Ignore any other application storage or temporary files
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
